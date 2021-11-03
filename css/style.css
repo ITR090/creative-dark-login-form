@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+input::placeholder {
+    color: #c3c0d4;
+    color: red;
+    font-size: 1.2em;
+  }  
+body{
+    background: linear-gradient(82deg, rgba(39,38,52,1) 0%, rgba(110,110,111,1) 73%);
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_container{
+    border: 1px solid #c3c0d4;
+    border-radius: 20px;
+    /* width: 100%; */
+    
+}
+.headerH1{
+    background-color: #8d8a95;
+    padding: 1em;
+    border-radius: 20px 20px 0px 0px;
+}
+.textH1{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+.icons{
+    color: #c3c0d4;
+}
+.formEle{
+    padding: 1em;
+}
+.color{
+    color:#c3c0d4;
+    text-decoration: none;
+}
+.font_italic{
+    font-style: italic;
+}
+.color:hover{
+    color: #c3c0d4;
+}
+.divInput{
+    background-color: linear-gradient(82deg, rgba(39,38,52,1) 0%, rgba(110,110,111,1) 73%);
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+}
+.form-control{
+    /* background-color: linear-gradient(82deg, rgba(39,38,52,1) 0%, rgba(110,110,111,1) 73%)!important */
+    background-color:transparent;
+}
+.inputborders{
+    border: none;
+    outline: none;
+    /* background-color: transparent; */
+}
+.inputborders:focus{
+    outline: none;
+}
+.inputborders[placeholder]{
+color: #c3c0d4;
+font-size: 1.1em;
+}
+.inputborders:focus{
+    outline-style: none;
+    outline-width: 0px;
+    outline-color: white;
+    background-color: transparent;
+}
+.btnColor{
+    background-color: #5d616d;
+    color: #FFF;
+    width: 50%;
+    text-align: center;
+}
+.btnColor:hover{
+    color: white;
+}
+@media screen and (min-width:998px){
+    .container{
+        width: 35%;
+    } 
+}
+@media screen and (max-width:998px){
+    .container{
+        width: 100%;
+    } 
+}
